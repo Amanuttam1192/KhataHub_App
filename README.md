@@ -10,3 +10,10 @@ With Money Manager's spending tracker and budget planner, you can effortlessly r
 transactions, produce expenditure reports, evaluate your daily, weekly, and monthly financial statistics, and manage
 your assets.
 </h2>
+<h2> This is the Version 1 of Money Manager app. Hold on!! there's more to come </h2>
+
+<h3> You can directly clone the project on your personal PC via git bash. 
+ <br>
+ Feel free to download the ZIP file from the website itself </h3>
+ 
+ <h2> <b>Furthermore, Thankyou for downloading the KhataHub app </h2>
