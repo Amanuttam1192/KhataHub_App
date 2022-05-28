@@ -73,19 +73,6 @@
         app:layout_constraintTop_toBottomOf="@+id/total_amt" />
 
     <TextView
-        android:id="@+id/add_amt"
-        android:layout_width="107dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="8dp"
-        android:text="0"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Enter_amt" />
-
-    <TextView
         android:id="@+id/note"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -148,6 +135,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/add"
         app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/enter_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/note"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Enter_amt" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
