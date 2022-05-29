@@ -1,4 +1,4 @@
-<?xml <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -40,7 +40,7 @@
         android:layout_marginTop="156dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="sans-serif-black"
-        android:text="2000"
+        android:text="0"
         android:textAlignment="inherit"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,7 +137,7 @@
 
     <EditText
         android:id="@+id/note_add"
-        android:layout_width="393dp"
+        android:layout_width="350dp"
         android:layout_height="71dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -147,6 +147,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/note"
         app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/History"
+        android:layout_width="401dp"
+        android:layout_height="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spacing"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
