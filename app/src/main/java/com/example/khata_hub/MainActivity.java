@@ -51,14 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 amount.setText(""+value_addon);
 
             }
-             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Money Have been Deducted", Toast.LENGTH_SHORT).show();
-                String s = enter_amt.getText().toString().trim();
-                int value_dedc = Integer.parseInt(s);
-                int value_addon = value_dedc - value_add ;;
-                amount.setText(""+value_addon);
-
-            }
+             p
         });
     }
 }
