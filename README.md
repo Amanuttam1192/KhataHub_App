@@ -16,4 +16,3 @@ your assets.
  <br>
  Feel free to download the ZIP file from the website itself </h3>
  
- <h2> <b>Furthermore, Thankyou for downloading the KhataHub app </h2>
